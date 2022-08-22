@@ -21,7 +21,7 @@ $.ajax({
           "xRotDeg": 0, // -20 to 20 - Camera X rotation in degrees (Higher = Camera Moves Up, Lower = Camera Moves Down)
           "yRotDeg": 0 // -60 to 60 - Camera Y rotation in degrees (Higher = Character Turns Left YOUR POV, Lower = Character Turns Right YOUR POV)
       },
-      "emoteAssetId": 3576823880, /* The assetId of an emote you own. 0 for no emote. 
+      "emoteAssetId": 0, /* The assetId of an emote you own. 0 for no emote. 
       */
       // idleAnimationAssetId used to exist here, it has since been removed.
       "thumbnailType": 1 /* The thumbnailType

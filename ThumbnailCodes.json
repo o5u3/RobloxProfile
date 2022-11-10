@@ -4,7 +4,7 @@ All you have to do is copy and paste your preferred type of thumbnail code in th
 */
 
 
-// Old Roblox Headshot (the one staring into your soul)
+// Default Roblox Headshot
 $.ajax({
   method: "POST",
   url: "https://avatar.roblox.com/v1/avatar/thumbnail-customization",
@@ -24,7 +24,7 @@ $.ajax({
   })
 });
 
-// Old Roblox Headshot (the one not staring into your soul)
+// Old Roblox Headshot
 $.ajax({
   method: "POST",
   url: "https://avatar.roblox.com/v1/avatar/thumbnail-customization",
@@ -44,7 +44,7 @@ $.ajax({
   })
 });
 
-// Original R6 Profile Preview
+// R6 Default Profile Preview
 $.ajax({
   method: "POST",
   url: "https://avatar.roblox.com/v1/avatar/thumbnail-customization",
@@ -63,7 +63,7 @@ $.ajax({
   })
 });
 
-// Original R15 Profile Preview
+// R15 Default Profile Preview
 $.ajax({
   method: "POST",
   url: "https://avatar.roblox.com/v1/avatar/thumbnail-customization",

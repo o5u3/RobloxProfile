@@ -1,0 +1,84 @@
+/*
+This is for those who prefer the default thumbnails rather than the new one.
+All you have to do is copy and paste your preferred type of thumbnail code in the console (on Roblox profile).
+*/
+
+
+// Old Roblox Headshot (the one staring into your soul)
+$.ajax({
+  method: "POST",
+  url: "https://avatar.roblox.com/v1/avatar/thumbnail-customization",
+  contentType: "application/json",
+  data: JSON.stringify({
+    "camera": {
+        // Ranges are inclusive.
+        "distanceScale": 1, // 0.5 to 4
+        "fieldOfViewDeg": 28, // 15 to 45
+        "xRotDeg": 0, // -20 to 20
+        "yRotDeg": 0 // -60 to 60
+    },
+    "emoteAssetId": 0, // emote asset id
+    // 0 for no animation
+    
+    "thumbnailType": 1 // 1 = Closeup (headshot), 2 = FullBody (bodyshot). Closeup and FullBody can have different configurations.
+  })
+});
+
+// Old Roblox Headshot (the one not staring into your soul)
+$.ajax({
+  method: "POST",
+  url: "https://avatar.roblox.com/v1/avatar/thumbnail-customization",
+  contentType: "application/json",
+  data: JSON.stringify({
+    "camera": {
+        // Ranges are inclusive.
+        "distanceScale": 1, // 0.5 to 4
+        "fieldOfViewDeg": 30, // 15 to 45
+        "xRotDeg": 0, // -20 to 20
+        "yRotDeg": -20 // -60 to 60
+    },
+    "emoteAssetId": 0, // emote asset id
+    // 0 for no animation
+    
+    "thumbnailType": 1 // 1 = Closeup (headshot), 2 = FullBody (bodyshot). Closeup and FullBody can have different configurations.
+  })
+});
+
+// Original R6 Profile Preview
+$.ajax({
+  method: "POST",
+  url: "https://avatar.roblox.com/v1/avatar/thumbnail-customization",
+  contentType: "application/json",
+  data: JSON.stringify({
+    "camera": {
+        // Ranges are inclusive.
+        "distanceScale": 1, // 0.5 to 4
+        "fieldOfViewDeg": 30, // 15 to 45
+        "xRotDeg": 0, // -20 to 20
+        "yRotDeg": 30 // -60 to 60
+    },
+    "emoteAssetId": 0, // emote asset id
+    // 0 for no animation
+    "thumbnailType": 2 // 1 = Closeup (headshot), 2 = FullBody (bodyshot). Closeup and FullBody can have different configurations.
+  })
+});
+
+// Original R15 Profile Preview
+$.ajax({
+  method: "POST",
+  url: "https://avatar.roblox.com/v1/avatar/thumbnail-customization",
+  contentType: "application/json",
+  data: JSON.stringify({
+    "camera": {
+        // Ranges are inclusive.
+        "distanceScale": 1, // 0.5 to 4
+        "fieldOfViewDeg": 28, // 15 to 45
+        "xRotDeg": 0, // -20 to 20
+        "yRotDeg": 0 // -60 to 60
+    },
+    "emoteAssetId": 0, // emote asset id
+    // 0 for no animation
+    
+    "thumbnailType": 2 // 1 = Closeup (headshot), 2 = FullBody (bodyshot). Closeup and FullBody can have different configurations.
+  })
+});

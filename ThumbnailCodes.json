@@ -54,7 +54,7 @@ $.ajax({
         // Ranges are inclusive.
         "distanceScale": 1, // 0.5 to 4
         "fieldOfViewDeg": 30, // 15 to 45
-        "xRotDeg": 0, // -20 to 20
+        "xRotDeg": -20, // -20 to 20
         "yRotDeg": 30 // -60 to 60
     },
     "emoteAssetId": 0, // emote asset id
